@@ -467,7 +467,7 @@ async function run() {
                 });
             }
 
-            // Sort by delivery count (Aescending) and then by average review
+            // Sort by delivery count (Descending) and then by average review
             const topDeliveryMen = result
                 .sort((a, b) => {
                     if (b.deliveryCount !== a.deliveryCount) {
